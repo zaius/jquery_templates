@@ -31,10 +31,10 @@ Let's consider a simple example of a template to generate a select box for entit
 </script>
 
 
-$.loadTemplates() 'compiles' the template with title 'entities' into the $.templates object and is directly accessable as $.templates.entites. Templates are compiled into JS functions that you can call passing in template 'local' data. For examle:
+$.loadTemplates() 'compiles' the template with title 'entities' into the $.templates object and is directly accessable as $.templates.entities. Templates are compiled into JS functions that you can call passing in template 'local' data. For examle:
 
 
-var html = $.templates.entites(
+var html = $.templates.entities(
  [{value: 1, name: "foo"}, {value: 2, name: "bar" }]
 );
 
